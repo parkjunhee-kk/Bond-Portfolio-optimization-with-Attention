@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+torch
+yfinance
+pandas-datareader
+nelson-siegel-svensson
