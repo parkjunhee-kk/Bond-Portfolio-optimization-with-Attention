@@ -4,7 +4,6 @@
 
 > 아주대학교 금융딥러닝 기말 프로젝트 (B조) ·
 
-<p align="center"><img src="assets/cumulative_returns.png" width="720"></p>
 
 ## Results (Out-of-sample, 2016–2024)
 
