@@ -2,7 +2,7 @@
 
 거시경제 상태와 채권 자산 간의 상호작용을 **Transformer Cross-Attention**으로 학습해, 7개 채권 자산의 롱·숏 비중을 매월 동적으로 조정하는 포트폴리오 모델입니다. 손실함수로 연율화 초과 샤프지수를 직접 미분해 정책(가중치 함수)을 end-to-end로 학습합니다.
 
-> 아주대학교 금융딥러닝 기말 프로젝트 (B조) · [발표자료 PDF](docs/presentation.pdf)
+> 아주대학교 금융딥러닝 기말 프로젝트 (B조) ·
 
 <p align="center"><img src="assets/cumulative_returns.png" width="720"></p>
 
@@ -50,7 +50,7 @@ Turnover 정의는 Gu, Kelly & Xiu (2020)를 따랐고, 거래비용(turnover ×
 
 ## Model
 
-<p align="center"><img src="assets/cross_attention_weights.png" width="48%"> <img src="assets/gradient_saliency.png" width="48%"></p>
+
 
 - **Asset encoder**: 자산별 12개월 수익률 시퀀스 → Linear(1→32) → Transformer Encoder (1 layer, 2 heads) → 마지막 시점 임베딩
 - **Macro encoder**: 12개월 거시 시퀀스 → Linear(11→32) → Transformer Encoder → 마지막 시점을 query로 사용
